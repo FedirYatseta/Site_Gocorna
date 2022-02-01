@@ -541,3 +541,37 @@ body {
           box-shadow: 2px 4px 32px rgba(0, 0, 0, 0.12);
   border-radius: 16px;
 }
+
+.media-stay-safe__block {
+  position: relative;
+  content: "";
+  background-color: #EC5863;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  z-index: -10;
+}
+
+.media-stay-safe .block1 {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 147px;
+  height: 147px;
+}
+
+.media-stay-safe .block2 {
+  position: absolute;
+  bottom: -34px;
+  left: 34px;
+  width: 77px;
+  height: 77px;
+}
+
+.media-stay-safe .block3 {
+  position: absolute;
+  bottom: 80px;
+  right: 15px;
+  width: 77px;
+  height: 77px;
+}
